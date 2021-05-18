@@ -2,6 +2,14 @@
 @import "_colors";
 
 // layout ecommerce section
+
+.search-container{
+    p{
+        img{
+            max-width: 30rem;
+        }
+    }
+}
 .search-form {
     position: relative;
 }
@@ -14,10 +22,11 @@
 }
 
 .search-box {
-    padding: 10px 12px 10px 34px;
-    width: 400px;
+    padding: 1rem;
+    width: 15rem;
+    max-height: 2rem;
     max-width: 100%;
-    font-size: 14px;
+    font-size: 1.2rem;
 }
 
 .breadcrumbs {

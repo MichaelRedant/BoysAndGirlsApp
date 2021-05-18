@@ -453,9 +453,8 @@
 /* SCSS Gradient */
 #overOns {
   background: white;
-  background: linear-gradient(0deg, white 0%, #e5e5e5 10%, #e4e4e4 50%, #f7f7f7 90%, white 100%, white 100%);
+  background: linear-gradient(180deg, white 20%, #4aa9be 100%);
   color: #444;
-  min-width: 90vh;
   min-height: 100vh;
 }
 #overOns .overOns {
@@ -473,7 +472,7 @@
 #overOns .overOns img {
   max-width: 20rem;
   max-height: 20rem;
-  box-shadow: 2rem 2rem 0.8rem #c7c7c7;
+  box-shadow: 2rem 2rem 0.8rem #2a889d;
 }
 #overOns .overOns h3 {
   text-transform: uppercase;
@@ -658,12 +657,129 @@
   letter-spacing: 0.1rem;
 }
 
+/* SCSS HEX */
+.maya-blue {
+  color: #5cc8ffff;
+}
+
+.flax {
+  color: #e9d985ff;
+}
+
+.black-olive {
+  color: #343633ff;
+}
+
+.rusty-red {
+  color: #dd2d4aff;
+}
+
+.glossy-grape {
+  color: #a799b7ff;
+}
+
+/* SCSS HSL */
+/* SCSS RGB */
+/* SCSS Gradient */
+.search-form {
+  position: relative;
+}
+
+.search-icon {
+  color: #343633;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+.search-box {
+  padding: 10px 12px 10px 34px;
+  width: 400px;
+  max-width: 100%;
+  font-size: 14px;
+}
+
+.breadcrumbs {
+  padding: 2.4rem 0;
+  max-height: 10rem;
+}
+.breadcrumbs .breadcrumb-separator {
+  font-size: 14px;
+  color: #676a65;
+  margin: 1rem 1rem;
+}
+.breadcrumbs .breadcrumbs-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 3rem;
+}
+
+.search-results-container {
+  min-height: 500px;
+  margin: 20px auto;
+}
+.search-results-container a {
+  color: darkblue;
+}
+.search-results-container a:hover {
+  text-decoration: underline;
+}
+
+.search-results-count {
+  margin-bottom: 20px;
+}
+
 #boys_junior {
-  margin-top: 10rem;
+  /* margin-top: 5rem; */
+  font-weight: lighter;
 }
 #boys_junior .card {
   max-width: 30rem;
-  background-color: green;
+}
+#boys_junior .card .product-name {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* SCSS HEX */
+.maya-blue {
+  color: #5cc8ffff;
+}
+
+.flax {
+  color: #e9d985ff;
+}
+
+.black-olive {
+  color: #343633ff;
+}
+
+.rusty-red {
+  color: #dd2d4aff;
+}
+
+.glossy-grape {
+  color: #a799b7ff;
+}
+
+/* SCSS HSL */
+/* SCSS RGB */
+/* SCSS Gradient */
+#merken {
+  min-height: 100vh;
+  background: white;
+  background: linear-gradient(0deg, white 0%, #f1f5f6 20%, #1c5b69 100%);
+}
+#merken .merken {
+  flex-direction: column;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10rem 0;
+  display: flex;
+}
+#merken .carousel-inner img {
+  margin: auto;
 }
 
 * {
@@ -747,8 +863,4 @@ body::-webkit-scrollbar {
 }
 .brand span {
   color: #dd2d4a;
-}
-
-#login {
-  margin: 5rem;
 }

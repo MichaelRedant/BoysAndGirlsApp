@@ -27,9 +27,10 @@
     </div>
 
     @foreach ($products as $product)
-        <div class="list-group-item">{{$product->name}}
+        <div class="list-group-item text-center">{{$product->name}}
         <p>{{$product->description}}</p>
-        <p>{{$product->slug}}</p></div>
+        <img src="{{asset('img/Mini/Girls/'.$product->slug.'.jpg')}}"alt="Foto product Boys and Girls">
+      </div>
     @endforeach
     
 </div>

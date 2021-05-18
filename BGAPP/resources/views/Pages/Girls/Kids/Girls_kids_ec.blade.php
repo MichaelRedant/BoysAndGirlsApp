@@ -5,13 +5,13 @@
 <div class="breadcrumbs">
   <div class="breadcrumbs-container container">
       <div>
-      <a href="index">Home</a>
-      <i class="fas fa-chevron-right breadcrumb-seperator"></i><span>Girls Kids</span>
+      <a href="index">Home </a>
+      <i class="fas fa-chevron-right breadcrumb-seperator"></i><span> Girls Kids</span>
       </div>
       <div>
         <form action="{{route('searchGirlsKids')}}"method="GET" ">
           <i class="fas fa-search"></i>
-          <input type="text"  name="query" value={{request()->input('query')}} class="search-box" placeholder="Zoeken">
+          <input type="text"  name="query" class="search-box" placeholder="Zoeken" value={{request()->input('query')}} >
       </form>
       </div>
   </div>
