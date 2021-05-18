@@ -1,7 +1,7 @@
 <?php
 
-use App\Product_Girls_Kids;
 use Illuminate\Database\Seeder;
+use App\Product_Girls_Kids;
 
 class Product_Girls_KidsTableSeeder extends Seeder
 {
@@ -227,6 +227,5 @@ class Product_Girls_KidsTableSeeder extends Seeder
             'gender' => 'Girls',
             'description' => 'Salopette S.Oliver Kids Girl - beschikbare maten 3 - 5 - 7 jaar',
         ]);
-
     }
 }

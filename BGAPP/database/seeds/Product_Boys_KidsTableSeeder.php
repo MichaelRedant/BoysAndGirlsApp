@@ -1,7 +1,7 @@
 <?php
 
-use App\Product_Boys_Kids;
 use Illuminate\Database\Seeder;
+use App\Product_Boys_Kids;
 
 class Product_Boys_KidsTableSeeder extends Seeder
 {
@@ -200,6 +200,5 @@ class Product_Boys_KidsTableSeeder extends Seeder
             'gender' => 'Boys',
             'description' => 'Broek mayoral - beschikbare maten 2 - 4 - 7 - 8 - 9 jaar',
         ]);
-
     }
 }

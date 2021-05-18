@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Product;
 use App\Product_Boys_Baby;
+use App\Product_Boys_Junior;
 use App\Product_Boys_Kids;
 use App\Product_Boys_Mini;
 use App\Product_Girls_Baby;
@@ -41,7 +41,7 @@ class SearchController extends Controller
     public function searchBoysJunior(Request $request){
         $query = $request->input('query');
 
-        $products = Product::where('name','like',"%$query%")->get();
+        $products = Product_Boys_Junior::where('name','like',"%$query%")->get();
         
         return view('Pages.Components.Search.search-results-BoysJunior')->with('products',$products);
     }

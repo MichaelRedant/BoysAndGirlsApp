@@ -11,6 +11,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(Product_Girls_JuniorTableSeeder::class);
+        $this->call(InspiredTableSeeder::class);
     }
 }

@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Product;
 use App\Product_Boys_Baby;
+use App\Product_Boys_Junior;
 use App\Product_Boys_Kids;
 use App\Product_Boys_Mini;
 
@@ -17,7 +17,7 @@ class Boys_JuniorController extends Controller
      */
     public function junior()
     {
-        $products = Product::get();
+        $products = Product_Boys_Junior::get();
 
         return view('Pages.Boys.junior.Boys_jr_ec')->with('products', $products);
     }
@@ -41,13 +41,6 @@ class Boys_JuniorController extends Controller
         $products = Product_Boys_Baby::get();
 
         return view('Pages.Boys.Baby.Boys_baby_ec')->with('products', $products);
-    }
-
-    public function show($slug)
-    {
-        $product = Product::where('slug' , $slug)->firstorFail();
-
-        return view('product')->with('product' , $product);
     }
 
 }

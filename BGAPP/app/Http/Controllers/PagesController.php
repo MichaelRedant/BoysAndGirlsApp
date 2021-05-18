@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\inspired_pictures;
 use Illuminate\Http\Request;
-use App\InspiredPictures;
 
 class PagesController extends Controller
 {
@@ -14,7 +14,7 @@ class PagesController extends Controller
 
     public function inspired()
     {
-        $inspiredPictures = InspiredPictures::get();
+        $inspiredPictures = inspired_pictures::get();
 
         return view('Pages.index')->with('inspiredPictures', $inspiredPictures);
     }

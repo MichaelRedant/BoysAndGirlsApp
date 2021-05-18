@@ -33,10 +33,6 @@ Route::get('/search_Girls_Junior','SearchController@searchGirlsJunior')->name('s
 //Inspired
 Route::get('/index','PagesController@inspired');
 
-//Login page
-Route::get('/login', 'PagesController@login');
-Route::post('/login', [UserController::class,'login']);
-
 //Boys
 //Baby
 Route::get('/Boys_Baby','Boys_JuniorController@baby')->name('BoysBaby');

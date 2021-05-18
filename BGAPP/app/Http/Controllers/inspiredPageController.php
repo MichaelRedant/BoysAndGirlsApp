@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\InspiredPictures;
+use App\inspired_pictures;
 use Illuminate\Http\Request;
 
 class inspiredPageController extends Controller
@@ -14,14 +14,14 @@ class inspiredPageController extends Controller
      */
     public function index()
     {
-        $inspiredPictures = InspiredPictures::get();
+        $inspiredPictures = inspired_pictures::get();
 
         return view('/Pages/index')->with('inspired_pictures', $inspiredPictures);
     }
 
     public function show($slug)
     {
-        $inspiredPicture = InspiredPictures::where('slug' , $slug)->firstorFail();
+        $inspiredPicture = inspired_pictures::where('slug' , $slug)->firstorFail();
 
         return view('inspiredPicture')->with('inspired_picturess' , $inspiredPicture);
     }
