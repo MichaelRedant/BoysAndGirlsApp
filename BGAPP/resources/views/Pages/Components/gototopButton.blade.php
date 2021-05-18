@@ -1,0 +1,1 @@
+<button onclick="topFunction()" id="go-to-top" title="Go to top"><i class="fas fa-chevron-up"></i></button>

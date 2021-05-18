@@ -1,0 +1,30 @@
+@import "_config";
+@import "_colors";
+
+// Start New section
+
+#new{
+    min-height: 100vh;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    line-height: 2.5rem;
+    text-transform: uppercase;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+
+        .new{
+            flex-direction: column;
+            text-align: center;
+            max-width: 150rem;
+            padding-left: 10rem;
+            padding-right: 10rem;
+            justify-content: center;
+        }
+
+    .card{
+        display: inline-block;
+    }
+
+}
+// End New section

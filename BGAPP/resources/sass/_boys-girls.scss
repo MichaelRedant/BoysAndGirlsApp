@@ -1,0 +1,74 @@
+@import "_config";
+@import "_colors";
+
+// Start Boys section
+#boys{
+    min-height: 100vh;
+    background: rgb(92,200,255);
+    background: linear-gradient(180deg, rgba(92,200,255,1) 0%, rgba(199,236,255,1) 84%, rgba(255,255,255,1) 100%);
+
+    .boys{
+        flex-direction: column;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 10rem 0;
+        display: flex;
+            h1{
+                display: inline-block;
+            }
+    }
+
+    .carousel-inner{
+
+            img{
+                margin: auto;
+            }
+    }
+
+    .btn-section{
+        
+        .btn{
+            margin: 0 1.5rem;
+            text-transform: uppercase;
+                a{
+                    text-decoration: none;
+                    color: inherit;
+                }
+        }
+    }
+
+}
+// End Boys section
+
+// Girls section
+#girls{
+    background: rgb(255,92,233);
+    background: linear-gradient(0deg, rgba(255,92,233,1) 0%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);
+    min-height: 100vh;
+    .girls{
+        flex-direction: column;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 10rem 0;
+        display: flex;
+            h1{
+                display: inline-block;
+            }
+    }
+
+    .carousel-inner{
+
+            img{
+                margin: auto;
+            }
+    }
+
+    .btn-section{
+        
+        .btn{
+            margin: 0 1.5rem;
+            text-transform: uppercase;
+        }
+    }
+}
+// End Girls section

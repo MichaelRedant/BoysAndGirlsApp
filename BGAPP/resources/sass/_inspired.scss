@@ -1,0 +1,47 @@
+@import "_config";
+@import "_colors";
+
+// Inspired by you section
+#inspired{
+    background-image: url("../img/silhouet.png");
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1; 
+    min-height: 100vh;
+    .inspired{
+        .section-title{
+         flex-direction: column;
+         max-width: 100%;
+         margin: 0 auto;
+         padding: 10rem 0;
+         display: flex;
+            h1{
+                display: inline-block;
+            }
+            color: $quinary-color;
+        }
+    
+    h3{
+        text-transform: uppercase;
+        font-weight: lighter;
+        margin-top: 2rem;
+
+        
+    }
+span{
+            color: $primary-color;
+        }
+
+    }
+    .carousel-inner{
+
+        img{
+            margin: auto;
+            max-height: 30rem;
+            margin-bottom: 3rem;
+        }
+}
+
+}
+// End Inspired by you section

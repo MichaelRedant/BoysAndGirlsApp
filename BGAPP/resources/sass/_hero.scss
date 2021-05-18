@@ -1,0 +1,124 @@
+@import "_config";
+@import "_colors";
+
+/*Hero section*/
+#hero {
+    background-image: url("../img/placeholder1.jpg");
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+
+    .hero{
+        min-width: 100%;
+        margin: 0 auto;
+        padding: 0 5rem;
+        justify-content: flex-start;
+    }
+
+    h1 {
+        display: block;;
+        width: fit-content;
+        font-size: 4rem;
+        text-transform: uppercase;
+        margin-bottom: 0.05rem;
+        color:transparent;
+        animation: text_reveal 0.5s ease forwards;
+        animation-delay: 1ss;
+
+            &:nth-child(1){
+                animation-delay: 2s;
+            }
+
+            &:nth-child(2){
+                animation-delay: 2s;
+            }
+
+            &:nth-child(3){
+                animation: text_reveal_name 0.5s ease forwards;
+                animation-delay: 3s;
+            }
+
+
+            span{
+                position: absolute;
+                top: 0%;
+                left: 0%;
+                height: 100%;
+                width: 0%;
+                background-color: $secondary-color;
+                animation: text_reveal_box 1s ease;
+                animation-delay: 0.5s;
+
+                &:nth-child(1)span{
+                    animation-delay: 0.5s;
+                }
+    
+                &:nth-child(2)span{
+                    animation-delay: 1.5s;
+                }
+    
+                &:nth-child(3)span{
+                    animation-delay: 2.5s;
+                }
+
+            }
+    }
+
+    .cta {
+        display: inline-block;
+        padding: 1rem 3rem;
+        color: white;
+        border: 0.2rem solid $secondary-color;
+        font-size: 1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        @include easyOut;
+
+        &:hover {
+            color: white;
+            background-color: $secondary-color;
+        }
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background-color: $primary-color;
+        opacity: 0.7;
+        z-index: -1;
+    }
+}
+
+//text hero keyframe
+@keyframes text_reveal_box{
+    50%{
+        width: 100%;
+        left: 0%;
+    }
+    100%{
+        width: 0%;
+        left: 100%;
+    }
+} 
+
+@keyframes text_reveal{
+    100%{
+        color: white;
+    }
+}
+
+@keyframes text_reveal_name{
+    100%{
+        color: $secondary-color;
+        font-weight: 50rem;
+    }
+}
+//end text hero keyframe
+
+/*End Hero section*/

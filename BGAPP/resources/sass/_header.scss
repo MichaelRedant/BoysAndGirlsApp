@@ -1,0 +1,30 @@
+@import "_config";
+@import "_colors";
+
+/*Header section*/
+#header{
+    position: fixed;
+    z-index: 5;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: auto;
+    
+        span{
+            color: $secondary-color;
+        }
+
+        a{
+            font-size: large;
+        }
+
+        a:hover{
+            color: $secondary-color;
+            @include easyOut;
+        }
+        .bg-light{
+            background-color: $quinary-color;
+        }
+}
+
+/*End Hero section*/

@@ -1,0 +1,45 @@
+@import "_config";
+@import "_colors";
+
+// Over Ons section
+#overOns{
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 20%, rgb(74, 169, 190) 100%);
+    color: #444;
+    min-height: 100vh;
+    .overOns{
+        align-items: center;
+        flex-direction: column;
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+            h1{
+                margin: 3rem;
+                display: inline-block;
+            }
+        img{
+            max-width: 20rem;
+            max-height: 20rem;
+            box-shadow: 2rem 2rem 0.8rem rgba(42,136,157,1);
+        }
+        h3{
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        p{
+            font-weight: lighter;
+        }
+        .davina-text{
+            text-align: left;
+            margin: 3rem
+        }
+        .sandrien-text{
+            text-align: right;
+            margin: 3rem;
+        }
+
+    }
+}
+// End Over Ons section
+

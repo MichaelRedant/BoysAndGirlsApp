@@ -1,0 +1,77 @@
+@import "_config";
+@import "_colors";
+
+// layout ecommerce section
+.search-form {
+    position: relative;
+}
+
+.search-icon {
+    color: $primary-color;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.search-box {
+    padding: 10px 12px 10px 34px;
+    width: 400px;
+    max-width: 100%;
+    font-size: 14px;
+}
+
+.breadcrumbs {
+    padding: 2.4rem 0;
+    max-height: 10rem;
+
+    .breadcrumb-separator {
+        font-size: 14px;
+        color: lighten($primary-color, 20%);
+        margin:1rem 1rem;
+    }
+
+    .breadcrumbs-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 3rem;
+    }
+}
+
+.search-results-container {
+    min-height: 500px;
+    margin: 20px auto;
+
+    a {
+        color: darkblue;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.search-results-count {
+    margin-bottom: 20px;
+}
+
+
+
+
+#boys_junior{
+    /* margin-top: 5rem; */
+
+    font-weight: lighter;
+    
+    .card{
+        max-width: 30rem;
+
+        .product-name{
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+    }
+    
+}
+

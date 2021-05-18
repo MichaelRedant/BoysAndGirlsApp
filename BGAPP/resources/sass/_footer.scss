@@ -1,0 +1,64 @@
+@import "_config";
+@import "_colors";
+
+// Footer Section
+#footer{
+    background: rgb(41,50,60);
+    background: linear-gradient(0deg, rgba(41,50,60,1) 0%, rgba(72,85,99,1) 100%);
+        footer{
+            min-height: 30rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 5rem;
+            padding-bottom: 1rem;
+            color: #fff;
+
+                h4{
+                    font-weight: lighter;
+                    font-size: 1.8rem;
+                    letter-spacing: 0.1rem;
+                    margin-top: 0.5rem;
+                    margin-bottom: 1rem;
+
+                }
+
+                .social-icon{
+                    display: flex;
+                    flex-direction: row;
+                    margin-bottom: 3rem;
+                    justify-content: center;
+
+                        .social-item{
+                            a:link{
+                                text-decoration: none;
+                                color: $primary-color;
+                            }
+                            a:visited{
+                                text-decoration: none;
+                                color: $primary-color;
+                            }
+                            &:hover{
+                                color: $secondary-color;
+                                text-decoration: none;
+                                
+                                a{
+                                    text-decoration: none;
+                                    color: white;
+
+                                }
+                            }
+                            a:active{
+                                text-decoration: underline;
+                                color: $quinary-color;
+                            }
+                        }
+                }
+        }
+        p{
+            font-size: 1rem;
+            font-weight: lighter;
+            letter-spacing: 0.1rem;
+        }
+}
+// End Footer section

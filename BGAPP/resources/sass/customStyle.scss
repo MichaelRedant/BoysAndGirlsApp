@@ -1,0 +1,108 @@
+@import "_config";
+@import "_colors";
+@import "_header";
+@import "_hero";
+@import "_new";
+@import "_boys-girls";
+@import "_inspired";
+@import "_social";
+@import "_overOns";
+@import "_contact";
+@import "_footer";
+@import "_ecomm";
+@import "_onzeMerken";
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1rem;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.container {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#go-to-top {
+    display: none; 
+    position: fixed; 
+    bottom: 2rem;
+    right: 3rem;
+    z-index: 10; 
+    border: none; 
+    outline: none; 
+    background-color: transparent;
+    color: $primary-color;
+    cursor: pointer; 
+    padding: 1.5rem;
+    border-radius: 1rem;
+    font-size: 1.8rem;
+  }
+  
+ 
+
+.btn {
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    @include easyOut;
+
+    &:hover {
+        background-color: $secondary-color;
+    }
+}
+
+.section-title {
+    font-size: 4rem;
+    font-weight: 300;
+    color: $primary-color;
+    margin-bottom: 1rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    span {
+        color: $secondary-color;
+    }
+}
+
+.brand {
+    h1 {
+        font-family: "Simonetta";
+        font-weight: bold;
+        font-size: 3rem;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    span {
+        color: $secondary-color;
+    }
+}
+
+#login {
+    margin: 5rem;
+}

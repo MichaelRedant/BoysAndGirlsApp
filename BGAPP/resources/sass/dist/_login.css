@@ -1,0 +1,27 @@
+/* SCSS HEX */
+.maya-blue {
+  color: #5cc8ffff;
+}
+
+.flax {
+  color: #e9d985ff;
+}
+
+.black-olive {
+  color: #343633ff;
+}
+
+.rusty-red {
+  color: #dd2d4aff;
+}
+
+.glossy-grape {
+  color: #a799b7ff;
+}
+
+/* SCSS HSL */
+/* SCSS RGB */
+/* SCSS Gradient */
+#login button {
+  margin: 3rem;
+}
