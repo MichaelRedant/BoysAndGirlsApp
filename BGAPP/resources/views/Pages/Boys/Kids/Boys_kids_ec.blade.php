@@ -9,7 +9,7 @@
       <i class="fas fa-chevron-right breadcrumb-seperator"></i><span> Boys Kids</span>
       </div>
       <div>
-        <form class="search-form" action="{{route('search_Boys_Kids')}}"method="GET" ">
+        <form class="search-form" action="{{route('searchBoysKids')}}"method="GET" ">
           <i class="fas fa-search"></i>
           <input type="text" name="query" class="search-box" placeholder="Zoeken" value={{request()->input('query')}} >
       </form>

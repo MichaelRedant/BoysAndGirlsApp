@@ -8,19 +8,13 @@
         <div class="col ml-3 card border-light">
             <img src="/img/brands/Raizzed/R121RBN34601_Natal_Neon Yellow_CAMPAIGN1.jpeg" class="card-img-top" alt="New Boys">
             <div class="card-body">
-                <a href="#" class="btn btn-outline-secondary">NEW BOYS</a>
+                <a href="{{route('NewBoys')."?sort-newest"}}" class="btn btn-outline-secondary">NEW BOYS</a>
             </div>
         </div>
         <div class="col card border-light">
             <img src="/img/brands/Raizzed/R121RGN30001_Atlanta_Dark Blue_CAMPAIGN1.jpeg" class="card-img-top" alt="New Girls">
             <div class="card-body">
-                <a href="#" class="btn btn-outline-secondary">NEW GIRLS</a>
-            </div>
-        </div>
-        <div class="col mr-3 card border-light">
-            <img src="/img/placeholder4.jpg" class="card-img-top" alt="New Baby">
-            <div class="card-body">
-                <a href="#" class="btn btn-outline-secondary">NEW BABY</a>
+                <a href="{{route('NewGirls')."?sort-newest"}}" class="btn btn-outline-secondary">NEW GIRLS</a>
             </div>
         </div>
       </div>

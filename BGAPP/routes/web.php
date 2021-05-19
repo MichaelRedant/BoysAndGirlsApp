@@ -19,6 +19,9 @@ Use App\Http\Controllers\SearchController;
 //Index
 Route::get('/index', 'PagesController@index');
 
+//New
+Route::get('/Boys_New','ProductsController@newBoys')->name('NewBoys');
+Route::get('/Girls_New','ProductsController@newGirls')->name('NewGirls');
 //Search
 Route::get('/search_Boys_Baby','SearchController@searchBoysBaby')->name('searchBoysBaby');
 Route::get('/search_Boys_Mini','SearchController@searchBoysMini')->name('searchBoysMini');

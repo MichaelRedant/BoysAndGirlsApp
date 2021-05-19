@@ -6,11 +6,11 @@
     <div class="breadcrumbs-container container">
         <div>
         <a href="index">Home </a><i class="fas fa-chevron-right breadcrumb-seperator"></i>
-        <a href="{{route('GirlsKids')}}">Girls Kids </a>
+        <a href="{{route('BoysBaby')}}">Boys Baby </a>
         <i class="fas fa-chevron-right breadcrumb-seperator"></i><span> Zoekresultaten </span>
         </div>
         <div>
-          <form class="search-form" action="{{route('searchGirlsKids')}}"method="GET" ">
+          <form class="search-form" action="{{route('searchBoys')}}"method="GET" ">
             <i class="fas fa-search"></i>
             <input type="text" name="query" value={{request()->input('query')}} class="search-box" placeholder="Zoeken">
         </form>
@@ -31,7 +31,7 @@
       <div class="row">
           <div class="col-sm-12">
               <div class="card text-center border-light bg-light ">
-              <img src="{{asset('img/Kids/Girls/'.$product->slug.'.jpg')}}" class="card-img-top" alt="Foto product Boys and Girls">
+              <img src="{{asset('img/Baby/Boys/'.$product->slug.'.jpg')}}" class="card-img-top" alt="Foto product Boys and Girls">
               <div class="card-body">
                 <p class="card-title "><div class="product-name fs-4">{{ $product->name }}</div>
                 <p class="card-text">{{$product->description}}</p>

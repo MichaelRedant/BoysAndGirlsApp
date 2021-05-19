@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Product;
 use App\Product_Boys_Baby;
 use App\Product_Boys_Junior;
 use App\Product_Boys_Kids;
@@ -10,6 +11,7 @@ use App\Product_Girls_Baby;
 use App\Product_Girls_Junior;
 use App\Product_Girls_Kids;
 use App\Product_Girls_Mini;
+use App\Products;
 use Illuminate\Http\Request;
 
 class SearchController extends Controller
@@ -17,7 +19,7 @@ class SearchController extends Controller
     public function searchBoysBaby(Request $request){
         $query = $request->input('query');
 
-        $products = Product_Boys_Baby::where('name','like',"%$query%")->get();
+        $products = Products::where('name','like',"%$query%")->where('category','=', '1')->get();
         
         return view('Pages.Components.Search.search-results-BoysBaby')->with('products',$products);
     }
@@ -25,7 +27,7 @@ class SearchController extends Controller
     public function searchBoysMini(Request $request){
         $query = $request->input('query');
 
-        $products = Product_Boys_Mini::where('name','like',"%$query%")->get();
+        $products = Products::where('name','like',"%$query%")->where('category','=', '2')->get();
         
         return view('Pages.Components.Search.search-results-BoysMini')->with('products',$products);
     }
@@ -33,7 +35,7 @@ class SearchController extends Controller
     public function searchBoysKids(Request $request){
         $query = $request->input('query');
 
-        $products = Product_Boys_Kids::where('name','like',"%$query%")->get();
+        $products = Products::where('name','like',"%$query%")->where('category','=', '3')->get();
         
         return view('Pages.Components.Search.search-results-BoysKids')->with('products',$products);
     }
@@ -41,7 +43,7 @@ class SearchController extends Controller
     public function searchBoysJunior(Request $request){
         $query = $request->input('query');
 
-        $products = Product_Boys_Junior::where('name','like',"%$query%")->get();
+        $products = Products::where('name','like',"%$query%")->where('category','=', '4')->get();
         
         return view('Pages.Components.Search.search-results-BoysJunior')->with('products',$products);
     }
@@ -49,7 +51,7 @@ class SearchController extends Controller
     public function searchGirlsBaby(Request $request){
         $query = $request->input('query');
 
-        $products = Product_Girls_Baby::where('name','like',"%$query%")->get();
+        $products = Products::where('name','like',"%$query%")->where('category','=', '5')->get();
         
         return view('Pages.Components.Search.search-results-GirlsBaby')->with('products',$products);
     }
@@ -57,7 +59,7 @@ class SearchController extends Controller
     public function searchGirlsMini(Request $request){
         $query = $request->input('query');
 
-        $products = Product_Girls_Mini::where('name','like',"%$query%")->get();
+        $products = Products::where('name','like',"%$query%")->where('category','=', '6')->get();
         
         return view('Pages.Components.Search.search-results-GirlsMini')->with('products',$products);
     }
@@ -65,7 +67,7 @@ class SearchController extends Controller
     public function searchGirlsKids(Request $request){
         $query = $request->input('query');
 
-        $products = Product_Girls_Kids::where('name','like',"%$query%")->get();
+        $products = Products::where('name','like',"%$query%")->where('category','=', '7')->get();
         
         return view('Pages.Components.Search.search-results-GirlsKids')->with('products',$products);
     }
@@ -73,7 +75,7 @@ class SearchController extends Controller
     public function searchGirlsJunior(Request $request){
         $query = $request->input('query');
 
-        $products = Product_Girls_Junior::where('name','like',"%$query%")->get();
+        $products = Products::where('name','like',"%$query%")->where('category','=', '8')->get();
         
         return view('Pages.Components.Search.search-results-GirlsJunior')->with('products',$products);
     }

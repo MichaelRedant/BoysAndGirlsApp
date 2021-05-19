@@ -938,16 +938,16 @@
   margin-bottom: 20px;
 }
 
-#boys_junior {
+#boys_junior #girls_junior {
   /* margin-top: 5rem; */
   font-weight: lighter;
 }
 
-#boys_junior .card {
+#boys_junior #girls_junior .card {
   max-width: 30rem;
 }
 
-#boys_junior .card .product-name {
+#boys_junior #girls_junior .card .product-name {
   font-weight: bold;
   text-transform: uppercase;
 }
