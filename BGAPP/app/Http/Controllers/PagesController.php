@@ -19,11 +19,7 @@ class PagesController extends Controller
         return view('Pages.index')->with('inspiredPictures', $inspiredPictures);
     }
 
-    public function login(){
-        $title = 'Admin Login';
-        return view('Pages.login')->with('title',$title);
-    }
-
+    
     //Boys
 
     public function Boys_Baby(){

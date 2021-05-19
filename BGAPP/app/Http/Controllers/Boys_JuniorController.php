@@ -20,6 +20,7 @@ class Boys_JuniorController extends Controller
         $products = Product_Boys_Junior::get();
 
         return view('Pages.Boys.junior.Boys_jr_ec')->with('products', $products);
+        
     }
 
     public function kids()
