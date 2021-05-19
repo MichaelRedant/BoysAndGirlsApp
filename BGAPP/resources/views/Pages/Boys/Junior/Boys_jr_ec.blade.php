@@ -25,7 +25,7 @@
     <div class="row">
         <div class="col-sm-12">
             <div class="card text-center border-light bg-light ">
-            <img src="{{asset('img/Junior/Boys/'.$product->slug.'.jpg')}}" class="card-img-top" alt="Foto product Boys and Girls">
+            <img src="{{asset('img/Products/'.$product->slug.'.jpg')}}" class="card-img-top" alt="Foto product Boys and Girls">
             <div class="card-body">
               <p class="card-title"><div class="product-name fs-4">{{ $product->name }}</div>
               <p class="card-text">{{$product->description}}</p>
