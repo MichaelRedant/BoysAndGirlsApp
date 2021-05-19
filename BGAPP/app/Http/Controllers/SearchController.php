@@ -16,6 +16,8 @@ use Illuminate\Http\Request;
 
 class SearchController extends Controller
 {
+
+    //Boys
     public function searchBoysBaby(Request $request){
         $query = $request->input('query');
 
@@ -48,6 +50,16 @@ class SearchController extends Controller
         return view('Pages.Components.Search.search-results-BoysJunior')->with('products',$products);
     }
 
+    public function searchBoys(Request $request){
+        $query = $request->input('query');
+
+        $products = Products::where('name','like',"%$query%")->where('gender','=', '1')->get();
+        
+        return view('Pages.Components.Search.search-results-Boys')->with('products',$products);
+    }
+
+
+    //Girls
     public function searchGirlsBaby(Request $request){
         $query = $request->input('query');
 
@@ -78,6 +90,14 @@ class SearchController extends Controller
         $products = Products::where('name','like',"%$query%")->where('category','=', '8')->get();
         
         return view('Pages.Components.Search.search-results-GirlsJunior')->with('products',$products);
+    }
+
+    public function searchGirls(Request $request){
+        $query = $request->input('query');
+
+        $products = Products::where('name','like',"%$query%")->where('gender','=', '2')->get();
+        
+        return view('Pages.Components.Search.search-result-Girls')->with('products',$products);
     }
 
     

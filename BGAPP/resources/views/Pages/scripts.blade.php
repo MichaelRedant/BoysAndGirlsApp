@@ -86,7 +86,12 @@ function topFunction() {
 }
 </script>
 
-
+{{-- loader --}}
+<script>
+  $(window).on("load",function(){
+  $(".loader-wrapper").fadeOut("slow");
+});
+</script>
 
 
 

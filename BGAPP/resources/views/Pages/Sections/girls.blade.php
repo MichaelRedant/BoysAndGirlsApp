@@ -7,14 +7,29 @@
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
-                <div class="img"><img class="d-block img-fluid" src="/img/brands/bobbi ravioli/Dress Lara navy.jpeg" alt="First slide"></div>
+                <div class="img"><img class="d-block img-fluid" src="/img/brands/carousel-girls/carouselGirls (1).jpeg" alt="Carousel Girls foto"></div>
               </div>
               <div class="carousel-item">
-                <div class="img"><img class="d-block img-fluid" src="/img/brands/bobbi ravioli/Emma2.jpeg" alt="Second slide"></div>
+                <div class="img"><img class="d-block img-fluid" src="/img/brands/carousel-girls/carouselGirls (2).jpeg" alt="Carousel Girls foto"></div>
               </div>
               <div class="carousel-item">
-                <div class="img"><img class="d-block img-fluid" src="/img/brands/bobbi ravioli/Lise2.jpeg" alt="Third slide"></div>
+                <div class="img"><img class="d-block img-fluid" src="/img/brands/carousel-girls/carouselGirls (3).jpeg" alt="Carousel Girls foto"></div>
               </div>
+              <div class="carousel-item">
+                <div class="img"><img class="d-block img-fluid" src="/img/brands/carousel-girls/carouselGirls (4).jpeg" alt="Carousel Girls foto"></div>
+              </div>
+              <div class="carousel-item">
+                <div class="img"><img class="d-block img-fluid" src="/img/brands/carousel-girls/carouselGirls (5).jpeg" alt="Carousel Girls foto"></div>
+              </div>
+              <div class="carousel-item">
+                <div class="img"><img class="d-block img-fluid" src="/img/brands/carousel-girls/carouselGirls (6).jpeg" alt="Carousel Girls foto"></div>
+              </div>
+              <div class="carousel-item">
+                <div class="img"><img class="d-block img-fluid" src="/img/brands/carousel-girls/carouselGirls (7).jpeg" alt="Carousel Girls foto"></div>
+              </div>
+              <div class="carousel-item">
+                <div class="img"><img class="d-block img-fluid" src="/img/brands/carousel-girls/carouselGirls (8).jpeg" alt="Carousel Girls foto"></div>
+            </div>
             </div>
           </div>
     

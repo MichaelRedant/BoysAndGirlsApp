@@ -9,9 +9,9 @@
         <span> Zoekresultaten </span>
         </div>
         <div>
-          <form class="search-form" action="{{route('searchBoys')}}"method="GET" ">
+          <form class="search-form" action="{{route('searchGirls')}}"method="GET" ">
             <i class="fas fa-search"></i>
-            <input type="text" name="query" value={{request()->input('query')}} class="search-box" placeholder="Zoeken">
+            <input type="text" name="query" class="search-box" placeholder="Zoeken" value={{request()->input('query')}} >
         </form>
         </div>
     </div>

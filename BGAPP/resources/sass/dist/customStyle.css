@@ -738,14 +738,14 @@
   margin-bottom: 20px;
 }
 
-#boys_junior {
+#boys_junior #girls_junior {
   /* margin-top: 5rem; */
   font-weight: lighter;
 }
-#boys_junior .card {
+#boys_junior #girls_junior .card {
   max-width: 30rem;
 }
-#boys_junior .card .product-name {
+#boys_junior #girls_junior .card .product-name {
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -871,4 +871,68 @@ body::-webkit-scrollbar {
 }
 .brand span {
   color: #dd2d4a;
+}
+
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #a799b7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+  border: 4px solid #Fff;
+  animation: loader 2s infinite ease;
+}
+
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  animation: loader-inner 2s infinite ease-in;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes loader-inner {
+  0% {
+    height: 0%;
+  }
+  25% {
+    height: 0%;
+  }
+  50% {
+    height: 100%;
+  }
+  75% {
+    height: 100%;
+  }
+  100% {
+    height: 0%;
+  }
 }

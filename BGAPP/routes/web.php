@@ -27,11 +27,13 @@ Route::get('/search_Boys_Baby','SearchController@searchBoysBaby')->name('searchB
 Route::get('/search_Boys_Mini','SearchController@searchBoysMini')->name('searchBoysMini');
 Route::get('/search_Boys_Kids','SearchController@searchBoysKids')->name('searchBoysKids');
 Route::get('/search_Boys_Junior','SearchController@searchBoysJunior')->name('searchBoysJunior');
+Route::get('/search_Boys','SearchController@searchBoys')->name('searchBoys');
 
 Route::get('/search_Girls_Baby','SearchController@searchGirlsBaby')->name('searchGirlsBaby');
 Route::get('/search_Girls_Mini','SearchController@searchGirlsMini')->name('searchGirlsMini');
 Route::get('/search_Girls_Kids','SearchController@searchGirlsKids')->name('searchGirlsKids');
 Route::get('/search_Girls_Junior','SearchController@searchGirlsJunior')->name('searchGirlsJunior');
+Route::get('/search_Girls','SearchController@searchGirls')->name('searchGirls');
 
 //Inspired
 Route::get('/index','PagesController@inspired');
