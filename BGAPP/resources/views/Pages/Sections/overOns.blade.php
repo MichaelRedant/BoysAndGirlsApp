@@ -12,9 +12,7 @@
             <div class="col-sm davina-text ">
                 <h3>Davina</h3>
                 <p>
-                    Een eigen text met informatie over Davina zelf en waarom ze het bedrijf heeft overgenomen.
-                    Dit mag een iets uitgebreide text zijn met feeling. <br>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, beatae fugit praesentium recusandae quia explicabo delectus saepe voluptatem quisquam, unde officia! A assumenda officiis nostrum pariatur, sed aut. Cupiditate, obcaecati!
+                    Op 18 jaar met IBO contract, Linda oude bazin, zaak overgenomen op 1 april 2018, actief in de handelsvereniging van stad Aalst, zelf mama geworden 2019. Heeft niets anders gedaan zit in het bloed nu 29 jaar.
 
                 </p>
             </div>   

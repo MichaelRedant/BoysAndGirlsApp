@@ -14,6 +14,8 @@
                 </div>
             </div>
             <p>Copyright &copy; <?php echo date("Y"); ?> Xinu B.V. All rights reserved</p>
+            <br>
+            <a class="social-item" href="{{Route('gebruikersvoorwaarden')}}">Gebruikersvoorwaarden</a>
         </div>
     </footer>
 </section>

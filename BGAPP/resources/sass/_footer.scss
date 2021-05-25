@@ -5,6 +5,9 @@
 #footer{
     background: rgb(41,50,60);
     background: linear-gradient(0deg, rgba(41,50,60,1) 0%, rgba(72,85,99,1) 100%);
+    a{
+        text-decoration: none;
+    }
         footer{
             min-height: 30rem;
             display: flex;

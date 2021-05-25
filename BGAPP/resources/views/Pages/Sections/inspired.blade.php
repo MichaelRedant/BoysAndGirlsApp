@@ -7,10 +7,10 @@
             <div class="carousel-inner">
              
               @foreach ($inspiredPictures as $inspiredPicture)
-                 <div class="carousel-item {{$inspiredPicture->id==1 ?' active ':''}}">
-                  <img class="d-block img-fluid" src="{{asset('img/Inspired/'.$inspiredPicture->slug.'.jpg')}}" alt="inspired slides"></div>
-              
-              @endforeach
+              <div class="carousel-item {{$inspiredPicture->id==1 ?' active ':''}}">
+               <img class="d-block img-fluid" src="{{asset('img/Inspired/'.$inspiredPicture->slug.'.jpg')}}" alt="inspired slides"></div>
+           
+           @endforeach
             </div> 
               <button class="carousel-control-prev" type="button" data-bs-target="#inspiredCarousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>

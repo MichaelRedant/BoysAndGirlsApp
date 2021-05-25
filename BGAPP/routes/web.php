@@ -57,3 +57,6 @@ Route::get('/Girls_Mini','GirlsController@mini')->name('GirlsMini');
 Route::get('/Girls_Kids','GirlsController@kids')->name('GirlsKids');
 //Junior
 Route::get('/Girls_Junior','GirlsController@junior')->name('GirlsJunior');
+
+//Voorwaarden
+Route::get('/Gebruikersvoorwaarden','PagesController@voorwaarden')->name('gebruikersvoorwaarden');

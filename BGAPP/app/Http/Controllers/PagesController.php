@@ -106,5 +106,10 @@ class PagesController extends Controller
         return view('layout.Boys')->with('title',$title);
     }
 
+    public function voorwaarden(){
+        $title = 'Gebruikersvoorwaarden';
+        return view('Pages.Sections.Gebruikersvoorwaarden');
+    }
+
 
 }
