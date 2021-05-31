@@ -1,0 +1,77 @@
+/* SCSS HEX */
+.maya-blue {
+  color: #5cc8ffff;
+}
+
+.flax {
+  color: #e9d985ff;
+}
+
+.black-olive {
+  color: #343633ff;
+}
+
+.rusty-red {
+  color: #dd2d4aff;
+}
+
+.glossy-grape {
+  color: #a799b7ff;
+}
+
+/* SCSS HSL */
+/* SCSS RGB */
+/* SCSS Gradient */
+#boys {
+  min-height: 100vh;
+  background: #5cc8ff;
+  background: linear-gradient(180deg, #5cc8ff 0%, #c7ecff 84%, white 100%);
+}
+#boys .boys {
+  flex-direction: column;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10rem 0;
+  display: flex;
+}
+#boys .boys h1 {
+  display: inline-block;
+}
+#boys .carousel-inner img {
+  margin: auto;
+}
+#boys .btn-section .btn {
+  margin: 0 1.5rem;
+  text-transform: uppercase;
+}
+#boys .btn-section .btn a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#girls {
+  background: #ff5ce9;
+  background: linear-gradient(0deg, #ff5ce9 0%, white 100%, white 100%);
+  min-height: 100vh;
+}
+#girls .girls {
+  flex-direction: column;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10rem 0;
+  display: flex;
+}
+#girls .girls h1 {
+  display: inline-block;
+}
+#girls .carousel-inner img {
+  margin: auto;
+}
+#girls .btn-section .btn {
+  margin: 0 1.5rem;
+  text-transform: uppercase;
+}
+#girls .btn-section .btn a {
+  text-decoration: none;
+  color: inherit;
+}

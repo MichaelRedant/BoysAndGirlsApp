@@ -23,7 +23,6 @@
     @include('Pages.Sections.new')
     {{-- End New section --}}
 
-
     {{-- Boys section --}}
     @include('Pages.Sections.boys')
     {{-- End Boys section --}}
