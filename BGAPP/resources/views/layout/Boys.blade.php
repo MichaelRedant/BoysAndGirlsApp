@@ -6,7 +6,7 @@
 </head>
 <body>
     {{-- Header section --}}
-    @include('Pages.Sections.header')
+    {{-- @include('Pages.Sections.header') --}}
     {{--  End Header section --}} 
     
     <title>Boys and Girls - @yield('title')</title>

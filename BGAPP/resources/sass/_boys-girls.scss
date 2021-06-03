@@ -18,11 +18,19 @@
             }
     }
 
-    .carousel-inner{
+    .carousel .carousel-item{
+        height: 30rem;
 
-            img{
-                margin: auto;
-            }
+        img{
+            margin: auto;
+            min-height: 30rem;
+        }
+    }
+
+    .carousel-inner{
+        max-height: 75%;
+
+            
     }
 
     .btn-section{
@@ -56,12 +64,21 @@
             }
     }
 
-    .carousel-inner{
+    .carousel .carousel-item{
+        height: 30rem;
 
-            img{
-                margin: auto;
-            }
+        img{
+            margin: auto;
+            min-height: 30rem;
+        }
     }
+
+    .carousel-inner{
+        max-height: 75%;
+
+            
+    }
+
 
     .btn-section{
         

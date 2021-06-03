@@ -1,4 +1,5 @@
 <section id="social">
+    <div id="fb-root"></div>
     <div class="social container">
         <div class="social-header mb-5">
             <h1 class="section-title"> <span>S</span>ocial</h1>

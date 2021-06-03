@@ -9,31 +9,31 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index">Home</a>
+              <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index#new">New</a>
+              <a class="nav-link" href="#new">New</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index#boys">Boys</a>
+              <a class="nav-link" href="#boys">Boys</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index#girls">Girls</a>
+              <a class="nav-link" href="#girls">Girls</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index#inspired">Inspired by you</a>
+              <a class="nav-link" href="#inspired">Inspired by you</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index#social">Social</a>
+              <a class="nav-link" href="#social">Social</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index#overOns">Over ons</a>
+              <a class="nav-link" href="#overOns">Over ons</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index#merken">Onze merken</a>
+              <a class="nav-link" href="#merken">Onze merken</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index#contact">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>

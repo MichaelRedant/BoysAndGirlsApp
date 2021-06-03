@@ -17,7 +17,8 @@ Use App\Http\Controllers\SearchController;
 */
 
 //Index
-Route::get('/index', 'PagesController@index');
+// Route::get('/', 'PagesController@index');
+Route::get('/','PagesController@index')->name('home');
 
 //New
 Route::get('/Boys_New','ProductsController@newBoys')->name('NewBoys');
@@ -35,8 +36,8 @@ Route::get('/search_Girls_Kids','SearchController@searchGirlsKids')->name('searc
 Route::get('/search_Girls_Junior','SearchController@searchGirlsJunior')->name('searchGirlsJunior');
 Route::get('/search_Girls','SearchController@searchGirls')->name('searchGirls');
 
-//Inspired
-Route::get('/index','PagesController@inspired');
+// //Inspired
+// Route::get('/#inspired','PagesController@inspired');
 
 //Boys
 //Baby

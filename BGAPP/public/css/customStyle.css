@@ -357,8 +357,17 @@
   display: inline-block;
 }
 
-#boys .carousel-inner img {
+#boys .carousel .carousel-item {
+  height: 30rem;
+}
+
+#boys .carousel .carousel-item img {
   margin: auto;
+  min-height: 30rem;
+}
+
+#boys .carousel-inner {
+  max-height: 75%;
 }
 
 #boys .btn-section .btn {
@@ -395,8 +404,17 @@
   display: inline-block;
 }
 
-#girls .carousel-inner img {
+#girls .carousel .carousel-item {
+  height: 30rem;
+}
+
+#girls .carousel .carousel-item img {
   margin: auto;
+  min-height: 30rem;
+}
+
+#girls .carousel-inner {
+  max-height: 75%;
 }
 
 #girls .btn-section .btn {
@@ -615,12 +633,10 @@
 
 #overOns .overOns .davina-text {
   text-align: left;
-  margin: 3rem;
 }
 
 #overOns .overOns .sandrien-text {
   text-align: right;
-  margin: 3rem;
 }
 
 /* SCSS HEX */

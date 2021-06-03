@@ -4,7 +4,7 @@
         <div class="boys-header mb-5">
             <h1 class="section-title"><span>B</span>oys</h1>
         </div>
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
                 <div class="img"><img class="d-block img-fluid" src="/img/brands/carousel-boys/carouselBoys (1).jpeg" alt="Carousel Boys foto"></div>
@@ -46,5 +46,7 @@
               <a href="{{route('BoysJunior')}}">Junior</a>
             </div>
         </div>
+        
+    </div>
 
 </section>

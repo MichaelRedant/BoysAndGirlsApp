@@ -9,15 +9,16 @@ class PagesController extends Controller
 {
     public function index(){
         $title = 'Boys and Girls';
-        return view('Pages.index')->with('title',$title);
+         $inspiredPictures = inspired_pictures::get();
+         return view('Pages.index')->with('inspiredPictures', $inspiredPictures);
     }
 
-    public function inspired()
-    {
-        $inspiredPictures = inspired_pictures::get();
+    // public function inspired()
+    // {
+       
 
-        return view('Pages.index')->with('inspiredPictures', $inspiredPictures);
-    }
+    //     return view('Pages.index')->with('inspiredPictures', $inspiredPictures);
+    // }
 
     
     //Boys
@@ -109,6 +110,11 @@ class PagesController extends Controller
     public function voorwaarden(){
         $title = 'Gebruikersvoorwaarden';
         return view('Pages.Sections.Gebruikersvoorwaarden');
+    }
+
+    public function home(){
+        $title ='Home';
+        return view('Pages.index');
     }
 
 

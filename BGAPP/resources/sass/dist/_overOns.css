@@ -1,0 +1,60 @@
+/* SCSS HEX */
+.maya-blue {
+  color: #5cc8ffff;
+}
+
+.flax {
+  color: #e9d985ff;
+}
+
+.black-olive {
+  color: #343633ff;
+}
+
+.rusty-red {
+  color: #dd2d4aff;
+}
+
+.glossy-grape {
+  color: #a799b7ff;
+}
+
+/* SCSS HSL */
+/* SCSS RGB */
+/* SCSS Gradient */
+#overOns {
+  background: white;
+  background: linear-gradient(180deg, white 20%, #4aa9be 100%);
+  color: #444;
+  min-height: 100vh;
+}
+#overOns .overOns {
+  align-items: center;
+  flex-direction: column;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+#overOns .overOns h1 {
+  margin: 3rem;
+  display: inline-block;
+}
+#overOns .overOns img {
+  max-width: 20rem;
+  max-height: 20rem;
+  box-shadow: 2rem 2rem 0.8rem #2a889d;
+}
+#overOns .overOns h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#overOns .overOns p {
+  font-weight: lighter;
+}
+#overOns .overOns .davina-text {
+  text-align: left;
+}
+#overOns .overOns .sandrien-text {
+  text-align: right;
+}

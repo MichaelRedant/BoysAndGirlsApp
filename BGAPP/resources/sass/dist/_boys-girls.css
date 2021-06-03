@@ -37,8 +37,15 @@
 #boys .boys h1 {
   display: inline-block;
 }
-#boys .carousel-inner img {
+#boys .carousel .carousel-item {
+  height: 30rem;
+}
+#boys .carousel .carousel-item img {
   margin: auto;
+  min-height: 30rem;
+}
+#boys .carousel-inner {
+  max-height: 75%;
 }
 #boys .btn-section .btn {
   margin: 0 1.5rem;
@@ -64,8 +71,15 @@
 #girls .girls h1 {
   display: inline-block;
 }
-#girls .carousel-inner img {
+#girls .carousel .carousel-item {
+  height: 30rem;
+}
+#girls .carousel .carousel-item img {
   margin: auto;
+  min-height: 30rem;
+}
+#girls .carousel-inner {
+  max-height: 75%;
 }
 #girls .btn-section .btn {
   margin: 0 1.5rem;
