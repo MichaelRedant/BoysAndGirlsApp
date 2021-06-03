@@ -1,0 +1,62 @@
+/* SCSS HEX */
+.maya-blue {
+  color: #5cc8ffff;
+}
+
+.flax {
+  color: #e9d985ff;
+}
+
+.black-olive {
+  color: #343633ff;
+}
+
+.rusty-red {
+  color: #dd2d4aff;
+}
+
+.glossy-grape {
+  color: #a799b7ff;
+}
+
+/* SCSS HSL */
+/* SCSS RGB */
+/* SCSS Gradient */
+/*Header section*/
+#header {
+  position: fixed;
+  z-index: 5;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: auto;
+}
+#header .js-cookie-consent {
+  padding: 1rem;
+  text-align: center;
+  color: #343633;
+  width: 100%;
+  z-index: 9999;
+  background-color: #e9d985;
+  border-color: #343633;
+  border: solid 1px;
+}
+#header .js-cookie-consent button {
+  color: #343633;
+  padding: 0.2rem;
+}
+#header span {
+  color: #dd2d4a;
+}
+#header a {
+  font-size: large;
+}
+#header a:hover {
+  color: #dd2d4a;
+  transition: all 0.5s ease-out;
+}
+#header .bg-light {
+  background-color: #a799b7;
+}
+
+/*End Header section*/

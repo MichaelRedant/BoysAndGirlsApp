@@ -1,5 +1,7 @@
 <section id="header">
 
+  @include('cookieConsent::index')
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand">Boys <span>& </span>Girls</a>

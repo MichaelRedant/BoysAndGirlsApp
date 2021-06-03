@@ -56,6 +56,22 @@
   height: auto;
 }
 
+#header .js-cookie-consent {
+  padding: 1rem;
+  text-align: center;
+  color: #343633;
+  width: 100%;
+  z-index: 9999;
+  background-color: #e9d985;
+  border-color: #343633;
+  border: solid 1px;
+}
+
+#header .js-cookie-consent button {
+  color: #343633;
+  padding: 0.2rem;
+}
+
 #header span {
   color: #dd2d4a;
 }

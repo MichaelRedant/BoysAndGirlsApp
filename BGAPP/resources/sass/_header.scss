@@ -9,6 +9,23 @@
     top: 0;
     width: 100vw;
     height: auto;
+
+    .js-cookie-consent{
+        
+        padding: 1rem;
+        text-align: center;
+        color: $primary-color;
+        width: 100%;
+        z-index: 9999;
+        background-color: $quaternary-color;
+        border-color: $primary-color;
+        border: solid 1px;
+
+        button{
+            color: $primary-color;
+            padding: 0.2rem;
+        }
+    }
     
         span{
             color: $secondary-color;
