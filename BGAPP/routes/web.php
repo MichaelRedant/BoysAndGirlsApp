@@ -1,6 +1,9 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\InspiredController;
+use App\Http\Controllers\inspiredPageController;
+use App\Http\Controllers\ProductsController;
 Use Illuminate\Support\Facades\Route;
 Use App\Http\Controllers\UserController;
 Use App\Http\Controllers\SearchController;
@@ -61,3 +64,28 @@ Route::get('/Girls_Junior','GirlsController@junior')->name('GirlsJunior');
 
 //Voorwaarden
 Route::get('/Gebruikersvoorwaarden','PagesController@voorwaarden')->name('gebruikersvoorwaarden');
+
+
+//admin
+Route::post('/login', 'UserController@login');
+Route::get('/login',function(){
+    return view('Pages.login');
+});
+
+Route::get('/admin','AdminController@index')->name('admin');
+
+//admin-products
+Route::get('products',[ProductsController::class,'index'])->name('adminProducts');
+Route::get('add-product',[ProductsController::class,'create'])->name('addProducts');
+Route::post('add-product',[ProductsController::class,'store']);
+Route::get('edit-product/{id}',[ProductsController::class,'edit'])->name('edit-product');
+Route::put('updateProducts/{id}',[ProductsController::class,'update'])->name('updateProducts');
+Route::get('delete-product/{id}',[ProductsController::class,'delete'])->name('delete-product');
+
+//admin-inspired
+Route::get('inspired_pictures',[inspiredPageController::class,'adminIndex'])->name('adminInspired');
+Route::get('add-inspired',[inspiredPageController::class,'create'])->name('addInspired');
+Route::post('add-inspired',[inspiredPageController::class,'store']);
+Route::get('edit-inspired/{id}',[inspiredPageController::class,'edit'])->name('edit-inspired');
+Route::put('updateInspired/{id}',[inspiredPageController::class,'update'])->name('updateInspired');
+Route::get('delete-inspired/{id}',[inspiredPageController::class,'delete'])->name('delete-inspired');

@@ -5,7 +5,7 @@
 <div class="breadcrumbs">
   <div class="breadcrumbs-container container">
       <div>
-      <a href="index">Home </a>
+      <a href="{{route('home')}}">Home </a>
       <i class="fas fa-chevron-right breadcrumb-seperator"></i><span> Girls Kids</span>
       </div>
       <div>
