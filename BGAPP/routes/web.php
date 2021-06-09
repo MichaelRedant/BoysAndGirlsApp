@@ -1,13 +1,12 @@
 <?php
-
-use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Session;
 use App\Http\Controllers\InspiredController;
-use App\Http\Controllers\inspiredPageController;
 use App\Http\Controllers\ProductsController;
+use App\Http\Controllers\inspiredPageController;
 Use Illuminate\Support\Facades\Route;
 Use App\Http\Controllers\UserController;
 Use App\Http\Controllers\SearchController;
-
+use App\Http\Middleware\UserAuth;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -65,13 +64,15 @@ Route::get('/Girls_Junior','GirlsController@junior')->name('GirlsJunior');
 //Voorwaarden
 Route::get('/Gebruikersvoorwaarden','PagesController@voorwaarden')->name('gebruikersvoorwaarden');
 
-
 //admin
 Route::post('/login', 'UserController@login');
 Route::get('/login',function(){
     return view('Pages.login');
 });
 
+Route::get('/logout', 'UserController@logout');
+
+Route::middleware(['web',UserAuth::class])->group(function(){
 Route::get('/admin','AdminController@index')->name('admin');
 
 //admin-products
@@ -89,3 +90,5 @@ Route::post('add-inspired',[inspiredPageController::class,'store']);
 Route::get('edit-inspired/{id}',[inspiredPageController::class,'edit'])->name('edit-inspired');
 Route::put('updateInspired/{id}',[inspiredPageController::class,'update'])->name('updateInspired');
 Route::get('delete-inspired/{id}',[inspiredPageController::class,'delete'])->name('delete-inspired');
+
+});

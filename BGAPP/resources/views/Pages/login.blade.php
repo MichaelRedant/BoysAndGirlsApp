@@ -12,8 +12,8 @@
     
     <main class="form-signin">
       <div class="container">
-         @csrf
-        <form action="login" method="POST">
+        <form action="{{url('login')}}" method="POST">
+          @csrf
         <img class="m-4" src="/img/boysandgirls.jpg" alt="logo boys and girls" width="auto" height="auto">
         <h1 class="h3 mb-3 fw-normal">Admin login</h1>
        

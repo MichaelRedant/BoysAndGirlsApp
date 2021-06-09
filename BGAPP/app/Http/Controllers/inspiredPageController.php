@@ -18,7 +18,8 @@ class inspiredPageController extends Controller
     public function adminIndex()
     {
         $inspiredPictures = inspired_pictures::get();
-        return view('Pages.Admin.AdminInspired')->with('inspiredPictures', $inspiredPictures);    }
+        return view('Pages.Admin.AdminInspired')->with('inspiredPictures', $inspiredPictures);    
+    }
 
     public function create()
     {

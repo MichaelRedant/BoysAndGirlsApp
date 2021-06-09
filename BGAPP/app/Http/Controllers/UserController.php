@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\User;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Session;
 
 class UserController extends Controller
 {
@@ -21,7 +23,12 @@ class UserController extends Controller
             return "Username or Password is incorrect";
         } else {
             $req->session()->put('user', $user);
-            return redirect('/admin');
+            return redirect('admin');
         }
+    }
+
+    function logout(){
+        Session::forget('user');
+    return redirect('admin');
     }
 }

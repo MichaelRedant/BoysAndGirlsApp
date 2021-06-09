@@ -15,8 +15,8 @@
            @endif  
 
                     <h4>AFBEELDINGEN PRODUCTEN
-                    <a href="{{url('add-product')}}" class="btn btn-primary float-end">TOEVOEGEN PRODUCT</a>
-                    <a href="{{Route('admin')}}" class="btn btn-danger float-end mr-3">BACK</a>
+                    <a href="{{url('add-product')}}" class="btn  btn-sm btn-primary float-end">TOEVOEGEN PRODUCT</a>
+                    <a href="{{Route('admin')}}" class="btn  btn-sm btn-danger float-end mr-3">BACK</a>
                     </h4>
                 </div>
                 <div class="card-body">
@@ -50,10 +50,10 @@
                                         <img src="{{asset('img/Products/'.$item->product_image)}}" width="70px" height="70px"alt="img database">
                                     </td>
                                     <td>
-                                        <a href="{{url('edit-product/'.$item->id)}}" class="btn btn-primary btn-sm">EDIT</a>
+                                        <a href="{{url('edit-product/'.$item->id)}}" class="btn btn-sm btn-primary btn-sm">EDIT</a>
                                     </td>
                                     <td>
-                                        <a href="{{url('delete-product/'.$item->id)}}" class="btn btn-danger btn-sm">DELETE</a>
+                                        <a href="{{url('delete-product/'.$item->id)}}" class="btn  btn-sm btn-danger btn-sm">DELETE</a>
                                     </td>
                                 </tr>
                                 @endforeach
