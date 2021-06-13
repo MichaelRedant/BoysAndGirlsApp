@@ -7,12 +7,14 @@
         <div class="overOns-inhoud ">
             <div class="row mb-4">
               <div class="col-sm">
-                <img src="/img/davina1.jpg" class="m-3" alt="foto davina">
+                <img src="/img/davina3.jpg" class="m-3" alt="foto davina">
             </div>
             <div class="col-sm davina-text ">
                 <h3>Davina</h3>
                 <p>
-                    Op 18 jaar met IBO contract, Linda oude bazin, zaak overgenomen op 1 april 2018, actief in de handelsvereniging van stad Aalst, zelf mama geworden 2019. Heeft niets anders gedaan zit in het bloed nu 29 jaar.
+                   Davina is sinds 01 april 2018 zaakvoerder van Boys &amp; Girls in de Kattestraat in Aalst. Ze heeft de zaak overgenomen van haar oude bazin Linda.
+                   Davina is begonnen als IBO contract in de winkel op haar 18 jaar en is sindsdien al 11 jaar werkzaam in de winkel. Naast zaakvoerder en mama is Davina ook 
+                   actief in de handelsvereniging van Aalst en spant ze zich vaak in samen met haar collega's en buren in de Kattestraat in Aalst.
 
                 </p>
             </div>   
@@ -23,14 +25,14 @@
               <div class="col-sm sandrien-text ">
                   <h3>Sandrien</h3>
                   <p>
-                      Een eigen text met informatie over Sandrien.
-                      Dit mag een iets uitgebreide text zijn met feeling. <br>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, beatae fugit praesentium recusandae quia explicabo delectus saepe voluptatem quisquam, unde officia! A assumenda officiis nostrum pariatur, sed aut. Cupiditate, obcaecati!
+                      Sandrien is al 13 werkzaam bij Boys &amp; Girls, begonnen als weekendhulp. Nu sinds 3 jaar fulltime bij Davina werkt ze samen met haar beste vriendin.
+                      Sandrien mama van een zoon en heeft altijd al interesse gehad in mode. Met haar diploma als styliste weet ze als geen ander wie met wat past.
+                      Samen met Davina maken ze een geweldig team, met een persoonlijke touch en professioneel advies.
   
                   </p>
               </div>   
               <div class="col-sm">
-                <img src="/img/sandrien1.jpg" class="m-3" alt="foto sandrien">
+                <img src="/img/sandrien3.jpg" class="m-3" alt="foto sandrien">
             </div>
             </div>
 

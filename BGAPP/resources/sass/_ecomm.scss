@@ -67,7 +67,20 @@
 
 
 
-#boys_junior #girls_junior{
+#boys_junior{
+    font-weight: lighter;
+    
+    .card{
+        max-width: 30rem;
+
+        .product-name{
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+    }
+} 
+#girls_junior{
     /* margin-top: 5rem; */
 
     font-weight: lighter;

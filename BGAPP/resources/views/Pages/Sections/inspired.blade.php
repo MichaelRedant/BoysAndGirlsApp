@@ -1,14 +1,19 @@
 <section id="inspired">
     <div class="inspired container-fluid">
         <div class="social-header mb-5">
-            <h1 class="section-title">Inspired by<span>You</span></h1>
+            <h1 class="section-title">Inspired by<span class="text-danger">You</span></h1>
+        </div>
+        <div class="d-flex justify-content-center text-info">
+          <h3>
+            Bedankt aan iedereen voor de mooie foto's van de kinderen!
+          </h3>
         </div>
         <div id="inspiredCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
              
               @foreach ($inspiredPictures as $inspiredPicture)
               <div class="carousel-item {{$inspiredPicture->id==1 ?' active ':''}}">
-               <img class="d-block img-fluid" src="{{asset('img/Inspired/'.$inspiredPicture->slug.'.jpg')}}" alt="inspired slides"></div>
+               <img class="d-block img-fluid" src="{{asset('img/Inspired/'.$inspiredPicture->inspired_image)}}" alt="inspired slides"></div>
            
            @endforeach
             </div> 

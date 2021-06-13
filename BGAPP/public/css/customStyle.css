@@ -117,7 +117,7 @@
 /* SCSS Gradient */
 /*Hero section*/
 #hero {
-  background-image: url("../img/placeholder1.jpg");
+  background-image: url("../img/winkel.jpg");
   background-size: cover;
   background-position: top center;
   position: relative;
@@ -305,6 +305,11 @@
   background-size: cover;
   background-position: top center;
   position: relative;
+}
+
+#new img {
+  max-height: 50rem;
+  max-width: 50rem;
 }
 
 #new .new {
@@ -634,8 +639,6 @@
 #overOns .overOns img {
   max-width: 20rem;
   max-height: 20rem;
-  -webkit-box-shadow: 2rem 2rem 0.8rem #2a889d;
-          box-shadow: 2rem 2rem 0.8rem #2a889d;
 }
 
 #overOns .overOns h3 {
@@ -974,16 +977,29 @@
   margin-bottom: 20px;
 }
 
-#boys_junior #girls_junior {
+#boys_junior {
+  font-weight: lighter;
+}
+
+#boys_junior .card {
+  max-width: 30rem;
+}
+
+#boys_junior .card .product-name {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#girls_junior {
   /* margin-top: 5rem; */
   font-weight: lighter;
 }
 
-#boys_junior #girls_junior .card {
+#girls_junior .card {
   max-width: 30rem;
 }
 
-#boys_junior #girls_junior .card .product-name {
+#girls_junior .card .product-name {
   font-weight: bold;
   text-transform: uppercase;
 }

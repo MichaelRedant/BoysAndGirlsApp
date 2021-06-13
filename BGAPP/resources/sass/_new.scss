@@ -13,6 +13,11 @@
     background-position: top center;
     position: relative;
 
+    img{
+        max-height:50rem;
+        max-width: 50rem;
+    }
+
         .new{
             flex-direction: column;
             text-align: center;
